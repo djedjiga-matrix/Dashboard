@@ -70,7 +70,7 @@ const processData = (importData, extractWorkbook) => {
     
     // 1. Traitement des données d'import
     importData.forEach(row => {
-        const agent = row.agent;
+        const Agents = row.Agents;
         const qualif = normalizeQualification(row.contact_qualif1);
         
         if (!agentStats[agent]) {
